@@ -4,7 +4,7 @@ This module defines a Square class with methods to calculate
 the area and perimeter of the square.
 """
 
-class Square:
+class Square():
     """A class used to represent a Square"""
     
     width = 0
@@ -49,6 +49,9 @@ class Square:
         return "{}/{}".format(self.width, self.height)
 
 if __name__ == "__main__":
+    """
+    Create a square object
+    """
     s = Square(width=12, height=9)
     print(s)
     print(s.area_of_my_square())
